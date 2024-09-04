@@ -1,0 +1,80 @@
+/* Home.module.css */
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C1E29;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  /* border: 5px #1C1E29; */
+  border-radius: 0.375rem;
+  padding: 3%;
+  background-color: #212529;
+
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.formGroup{
+  display: flex;
+  text-align: center;
+  min-width: 500px;
+}
+
+.formControl{
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 3%;
+}
+
+.textLight {
+  color: #f8f9fa;
+}
+
+.btnBlock {
+  display: block;
+  padding: 2%;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 0.5rem;
+  
+}
+
+.btnBlock:hover {
+  cursor: pointer;
+}
+
+.textSuccess {
+  color: #28a745;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.imgLogo {
+  max-width: 150px;
+}

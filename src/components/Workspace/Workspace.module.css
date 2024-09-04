@@ -1,0 +1,91 @@
+/* EditorPage.css */
+
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    /* flex-direction: column; */
+  }
+  
+  .client_panel {
+    width: 250px;
+    /* height: 100%; */
+    background-color: #282c34;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .logo {
+    min-width: 100px;
+    max-height: 60px;
+    /* margin-bottom: 20px; */
+  }
+  
+  .divider {
+    width: 100%;
+    border: 1px solid #444c56;
+    margin: 20px 0;
+  }
+  
+  .client_list {
+    flex-grow: 1;
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  .member_title{
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .action_btn {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .copy_btn,
+  .leave_btn{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .copy_btn {
+    background-color: #4caf50;
+    color: #f5f5f5;
+  }
+  
+  .copy_btn:hover {
+    background-color: #45a045;
+  }
+  
+  .leave_btn{
+    background-color: #f44336;
+    color: #f5f5f5;
+  }
+  
+  .leave_btn:hover {
+    background-color: #e53935;
+  }
+  
+  .editor_panel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #1e1f29;
+    align-items: center;
+    overflow-y: auto;
+    color: #fff;
+  }
+  
