@@ -79,13 +79,15 @@
   }
   
   .editor_panel {
-    position: relative;
     display: flex;
+    position: relative;
     flex-direction: column;
+    justify-content: space-between;
     flex-grow: 1;
     background-color: #1e1f29;
     align-items: center;
     overflow-y: auto;
     color: #fff;
   }
+
   
