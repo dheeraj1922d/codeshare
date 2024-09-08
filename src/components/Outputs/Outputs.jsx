@@ -8,7 +8,7 @@ const Outputs = ({ socketRef ,  codeRef, setOutputHeight, outputHeight }) => {
   const outputRef = useRef(null);
     const isResizing = useRef(false);
     const startY = useRef(0);
-    const startHeight = useRef(outputHeight);
+    const startHeight = useRef(0);
 
     const handleMouseDown = (e) => {
         isResizing.current = true;
