@@ -10,5 +10,5 @@ export const initSocket = async () => {
 
     console.log(process.env.REACT_APP_BACKEND_URL)
 
-    return io(process.env.REACT_APP_BACKEND_URL, option);
+    return io(process.env.REACT_APP_BACKEND_URL || "https://codeshare-backend-2v7l.onrender.com", option);
 };
